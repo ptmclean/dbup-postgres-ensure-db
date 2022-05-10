@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>dbup_postgres_ensure_db</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+    <ItemGroup>
+    <PackageReference Include="dbup-core" Version="4.6.0" />
+    <PackageReference Include="dbup-postgresql" Version="4.6.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  db:
+    image: postgres:10.14
+    restart: always
+    ports:
+      - 35432:5432
+    environment:
+      POSTGRES_DB: user
+      POSTGRES_USER: sa
+      POSTGRES_PASSWORD: Password123
